@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Илья Поляков](https://up.htmlacademy.ru/htmlcss-individual/2/user/2531813).
-* Наставник: `Неизвестно`.
+* Наставник: [Артем Именин](https://htmlacademy.ru/profile/aimenin).
 
 ---
 
