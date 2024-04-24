@@ -2,7 +2,7 @@
 
 * Студент: [Илья Поляков](https://up.htmlacademy.ru/htmlcss-individual/2/user/2531813).
 * Наставник: [Артем Именин](https://htmlacademy.ru/profile/aimenin).
-
+* Сайт:[Мой проект Седона ](https://iliyapolyakov.github.io/2531813-sedona-2/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
