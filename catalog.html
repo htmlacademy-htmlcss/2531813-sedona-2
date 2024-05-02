@@ -50,44 +50,62 @@
         /></a>
         <a class="breadcrumbs-link">Гостиницы</a>
       </header>
-      <ul>
-        <li>
-          <h4>Инфраструктура:</h4>
-          <input
-            type="checkbox"
-            name="subscribe"
-            id="subscribe-field"
-            checked
-          />
-          <label for="subscribe-field">Бассейн</label><br />
-          <input
-            type="checkbox"
-            name="subscribe"
-            id="subscribe-field"
-            checked
-          />
-          <label for="subscribe-field">Парковка</label><br />
-          <input type="checkbox" name="subscribe" id="subscribe-field" />
-          <label for="subscribe-field">Wi-Fi</label>
-        </li>
-        <li>
-          <h4>Тип жилья:</h4>
-          <input type="radio" name="subscribe" id="subscribe-field" checked />
-          <label for="subscribe-field">Гостиница</label><br />
-          <input type="radio" name="subscribe" id="subscribe-field" />
-          <label for="subscribe-field">Мотель</label><br />
-          <input type="radio" name="subscribe" id="subscribe-field" />
-          <label for="subscribe-field">Апартаменты</label>
-        </li>
-        <li>
-          <h4>Стоимость:</h4>
-        </li>
-        <li>
-          <button>Применить</button><br />
-          <button>Сбросить</button>
-        </li>
-      </ul>
+
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <ul>
+           <li><input type="checkbox" name="subscribe" id="subscribe-field"checked >
+            <label for="subscribe-field">Бассейн</label></li>
+           <li><input  type="checkbox" name="subscribe" id="subscribe-field" checked/>
+            <label for="subscribe-field">Парковка</label></li>
+           <li><input type="checkbox" name="subscribe" id="subscribe-field" />
+            <label for="subscribe-field">Wi-Fi</label></li>
+          </ul>
+         </fieldset>
+         <fieldset> <legend>Тип жилья:</legend>
+           <ul>
+          <li><input type="radio" name="subscribe" id="subscribe-field" checked />
+          <label for="subscribe-field">Гостиница</label></li>
+         <li> <input type="radio" name="subscribe" id="subscribe-field"/>
+          <label for="subscribe-field">Мотель</label></li>
+         <li> <input type="radio" name="subscribe" id="subscribe-field"/>
+          <label for="subscribe-field">Апартаменты</label></li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Стоимость, ₽:</legend>
+        <form action="https://echo.htmlacademy.ru/courses" method="post">
+          От
+          <input value='0'  type="text" name="total" id='total-field'>
+        </form>
+        <form action="https://echo.htmlacademy.ru/courses" method="post">
+          До
+          <input value='9000'  type="text" name="total" id='total-field'>
+        </form>
+        <button>Управление верхней границей стоимости</button>
+        <button>Управление нижней границей стоимости</button>
+      </fieldset>
+      <button>Применить</button>
+      <button>Сбросить</button>
     </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <section class="cards">
       <h3>Найдено гостиниц: 38</h3>
       <br />
