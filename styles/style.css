@@ -1,0 +1,382 @@
+@font-face {
+
+ font-family: "PT Sans";
+ font-style: normal;
+ font-weight: 400;
+ src:url("fonts/pt-sans-regular.woff2") format(woff2);
+ font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold.woff2")format(woff2);
+  font-display: swap;
+}
+
+body{
+
+  font-family: "PT Sans",sans-serif;
+  font-size:16px ;
+  line-height:24px ;
+  color: black;
+  background-color:white;
+}
+
+.page-header{
+  color: black;
+  background:#FFFFFF;
+
+}
+
+.navigation-link{
+font-family: "PT Sans",sans-serif;
+color: #000000;
+background:#FFFFFF;
+text-decoration: none;
+font-size: 20px;
+line-height: 24px;
+font-weight: 700;
+text-align: center;
+}
+
+.description{
+font-family: "PT Sans",sans-serif;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+}
+
+.description h2{
+padding: 5px;
+
+}
+
+.text-cause{
+font-family:"PT Sans",sans-serif;
+font-weight: 400;
+font-size:22px;
+line-height:26px;
+color: #333333;
+;
+
+}
+
+.container-real-town{
+color: #FFFFFF;
+background:#82B3D3;
+font-family: "PT Sans",sans-serif;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+}
+
+.text-description{
+color: #FFFFFF;
+background:#82B3D3;
+font-family: "PT Sans",sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+}
+
+.container-small-area{
+  background: #83B3D31F;
+  text-align: center;
+  color:#000000;
+}
+
+.container-small-area h3{
+  color: #000000;
+  font-family:"PT Sans",sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.text-attractions{
+  color:#333333;
+
+  font-family:"PT Sans",sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.container-beautiful-road{
+  color:#000000;
+   background: #83B3D333;
+  text-align: center;
+}
+
+.container-beautiful-road h3{
+  color: #000000;
+  font-family:"PT Sans",sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.container-beautiful-road p{
+   color:#333333;
+  font-family:"PT Sans",sans-serif;
+  font-weight:400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.container-few-tourists{
+  color: #000000;
+  background: #83B3D31F;
+  text-align: center;
+}
+
+
+.container-few-tourists h3{
+  color: #000000;
+  font-family:"PT Sans",sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+}
+
+.container-few-tourists p{
+  color:#333333;
+  font-family:"PT Sans",sans-serif;
+  font-weight:400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.container-devils-bridge{
+color:#FFFFFF;
+background: #82B3D3;
+text-align: center;
+}
+
+.container-devils-bridge h3{
+  color:#FFFFFF;
+  font-family:"PT Sans",sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.container-devils-bridge p{
+  color:#FFFFFF;
+  font-family:"PT Sans",sans-serif;
+  font-weight:400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+}
+
+
+.come-to-sedona h2{
+  color:#000000;
+  font-family:"PT Sans",sans-serif;
+  font-weight:700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.come-to-sedona p{
+  color:#333333;
+  font-family:"PT Sans",sans-serif;
+  font-weight:400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+
+}
+
+.cards-housing{
+  color: #000000;
+  background: #83B3D31F;
+  text-align: center;
+
+}
+
+.cards-housing h4{
+  color:#000000;
+  font-family:"PT Sans",sans-serif;
+  font-weight:700;
+  font-size: 24px;
+  line-height:28px;
+  text-align: center;
+
+}
+
+.cards-housing p{
+  color:#333333;
+  font-family:"PT Sans",sans-serif;
+  font-weight:400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+}
+
+.cards-burger{
+color: #000000;
+background: #FFFFFF;
+text-align: center;
+}
+
+.cards-burger h4{
+  color: #000000;
+  font-family:"PT Sans",sans-serif;
+  font-weight:700;
+  font-size: 24px;
+  line-height:28px;
+  text-align: center;
+
+}
+
+.cards-burger p{
+  color:#333333;
+  font-family:"PT Sans",sans-serif;
+  font-weight:400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+}
+
+.cards-present{
+  color: #000000;
+  background:#83B3D31F;
+  text-align: center;
+}
+
+.cards-present h4{
+  color: #000000;
+  font-family:"PT Sans",sans-serif;
+  font-weight:700;
+  font-size: 24px;
+  line-height:28px;
+  text-align: center;
+}
+
+.cards-present p{
+  color:#333333;
+  font-family:"PT Sans",sans-serif;
+  font-weight:400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+}
+
+.expected-dates{
+  color: #000000;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.expected-dates h3{
+  color: #000000;
+  font-family:"PT Sans",sans-serif;
+  font-weight:700;
+  font-size: 30px;
+  line-height:36px;
+  text-align: center;
+
+}
+
+.expected-dates{
+
+  color:#333333;
+  font-family:"PT Sans",sans-serif;
+  font-weight:400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.search-button{
+color: #FFFFFF;
+background: #756157;
+width: 367px;
+height: 52px;
+}
+
+.search-button p{
+color: #FFFFFF;
+font-family:"PT Sans",sans-serif;
+font-weight:700;
+font-size: 20px;
+line-height: 36px;
+text-align: center;
+margin: 0%;
+}
+
+.subscription{
+  color: #FFFFFF;
+  background-image: url(/images/fon-email\ .jpg);
+  width: 1200px;
+  height: 415px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+
+}
+
+.subscription h3{
+  color: #FFFFFF;
+  font-family:"PT Sans",sans-serif;
+  font-weight:700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+
+}
+
+.subscription p{
+  color: #FFFFFF;
+  font-family:"PT Sans",sans-serif;
+  font-weight:400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+
+}
+
+
+.blue-button{
+ color: #FFFFFF;
+ background: #82B3D3;
+
+}
+
+
+.page-footer{
+
+  text-align: center;
+
+}
+
+
+.telephone-footer a{
+
+color: #000000;
+
+font-family:"PT Sans",sans-serif;
+font-weight:400;
+font-size: 40px;
+line-height: 40px;
+}
