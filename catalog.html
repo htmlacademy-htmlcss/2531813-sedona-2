@@ -45,8 +45,8 @@
 
     <main class="main-inner">
       <header class="header-inner">
-        <img src="images/catalog/hotels-images.jpg" alt="Горы фон" width="1200" height="412">
-        <h1 class="header-inner-hostels">Гостиницы Седоны</h1>
+        <!-- <img src="images/catalog/hotels-images.jpg" alt="Горы фон" width="1200" height="412"> -->
+        <h1>Гостиницы Седоны</h1>
         <a class="breadcrumbs-link" href="./index.html"
           >
           <img src="images/home-page.svg" alt="На главную страницу" width="12" height="12"/></a>
@@ -54,17 +54,17 @@
       </header>
            <form>
           <fieldset>
-            <legend>Инфраструктура:</legend>
+            <legend class="infrastructure">Инфраструктура:</legend>
             <ul>
-           <li><input type="checkbox" name="subscribe" id="subscribe-field"checked >
+           <li><input type="checkbox" name="subscribe" id="subscribe-field"checked>
             <label for="subscribe-field">Бассейн</label></li>
            <li><input  type="checkbox" name="subscribe" id="subscribe-field" checked/>
             <label for="subscribe-field">Парковка</label></li>
-           <li><input type="checkbox" name="subscribe" id="subscribe-field" />
+           <li><input type="checkbox" name="subscribe" id="subscribe-field"/>
             <label for="subscribe-field">Wi-Fi</label></li>
           </ul>
          </fieldset>
-         <fieldset> <legend>Тип жилья:</legend>
+         <fieldset> <legend class="type-hous">Тип жилья:</legend>
            <ul>
           <li><input type="radio" name="subscribe" id="subscribe-field" checked />
           <label for="subscribe-field">Гостиница</label></li>
@@ -87,7 +87,7 @@
         <button >Управление верхней границей стоимости</button>
         <button >Управление нижней границей стоимости</button>
       </fieldset>
-      <button class="filter-button active-filter-button" type="submit">Применить</button>
+      <button class="filter-button-blue" type="submit">Применить</button>
       <button class="filter-button" type="reset">Сбросить</button>
     </form>
     </main>
@@ -107,43 +107,43 @@
 
 
       <ul>
-        <li>
+        <li class="cards-amara">
           <img src="images/catalog/hotel-1.jpg" alt="вид из пещеры на звезды" width="300" height="212"/>
-          <h3 class="Spa">Amara Resort & Spa</h3>
+          <h3 class="spa">Amara Resort & Spa</h3>
           <p>Гостиница</p>
           <p>от 4000 &#8381; </p>
-          <a href="#">Подробнее</a>
-          <a href="#">В избранное</a>
+          <button class="amara-more-details">Подробнее</button>
+          <button class="amara-to-favorites">В избранное</button>
           <p>4 звезды</p>
           <p>Рейтинг:8,5</p>
         </li>
-        <li>
+        <li class="cards-villas">
           <img src="images/catalog/hotel-2.jpg" alt="Гора с радугой после дождя" width="300" height="212"/>
           <h3 class="diablo">Villas at Poco Diablo</h3>
           <p>Гостиница</p>
           <p>от 5000 &#8381; </p>
-          <a href="#">Подробнее</a>
-          <a href="#">В избранное</a>
+          <button class="amara-more-details">Подробнее</button>
+          <button class="amara-to-favorites">В избранное</button>
           <p>4 звезды</p>
           <p>Рейтинг:9,2</p>
         </li>
-        <li>
+        <li class="cards-desert">
           <img src="images/catalog/hotel-3.jpg" alt="над горой ясное небо" width="300" height="212"/>
           <h3 class="desert">Desert Quail Inn</h3>
           <p>Гостиница</p>
           <p>от 2500 &#8381; </p>
-          <a href="#">Подробнее</a>
-          <a href="#">В избранное</a>
+          <button class="amara-more-details">Подробнее</button>
+          <button class="amara-to-favorites">В избранное</button>
           <p>3 звезды</p>
           <p>Рейтинг:6,9</p>
         </li>
-        <li>
+        <li class="cards-greentree">
           <img src="images/catalog/hotel-4.jpg" alt="Ночное небо над горой" width="300" height="212"/>
-          <h3 class="GreenTree">GreenTree Inn</h3>
+          <h3 class="greentree">GreenTree Inn</h3>
           <p>Гостиница</p>
           <p>от 1500 &#8381; </p>
-          <a href="#">Подробнее</a>
-          <a href="#">В избранное</a>
+          <button class="amara-more-details">Подробнее</button>
+          <button class="amara-to-favorites">В избранное</button>
           <p>2 звезды</p>
           <p>Рейтинг:5,0</p>
         </li>

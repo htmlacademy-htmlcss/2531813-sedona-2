@@ -27,6 +27,7 @@ body{
 .page-header{
   color: black;
   background:#FFFFFF;
+  text-align: center;
 
 }
 
@@ -327,7 +328,7 @@ margin: 0%;
 
 .subscription{
   color: #FFFFFF;
-  background-image: url(images/fon-email\ .jpg);
+  background-image: url(/images/fon-email\ .jpg);
   width: 1200px;
   height: 415px;
   background-repeat: no-repeat;
@@ -363,20 +364,189 @@ margin: 0%;
 
 }
 
-
-.page-footer{
-
-  text-align: center;
+.page-footer {
+text-align: center;
 
 }
 
 
-.telephone-footer a{
+.telephone-footer a {
 
-color: #000000;
-
+color:#000000;
 font-family:"PT Sans",sans-serif;
 font-weight:400;
 font-size: 40px;
 line-height: 40px;
+}
+
+
+.main-inner{
+font-family:"PT Sans",sans-serif;
+color: #FFFFFF;
+background-image: url(/images/catalog/hotels-images.jpg);
+width:1200px;
+height: 412px;
+text-align: center;
+}
+
+.main-inner h1{
+  color: #FFFFFF;
+  font-family:"PT Sans",sans-serif;
+  font-weight:700;
+  font-size: 60px;
+  line-height: 78px;
+  text-align: center;
+}
+
+.breadcrumbs-link{
+  color: #FFFFFF;
+  font-family:"PT Sans",sans-serif;
+  font-weight:400;
+  font-size: 16px;
+  line-height:21px;
+  text-align: center;
+}
+
+.infrastructure{
+  color: #FFFFFF;
+  font-family:"PT Sans",sans-serif;
+  font-weight:700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+}
+
+.filter-button-blue{
+  color:#FFFFFF;
+  background: #82B3D3;
+}
+
+.main-inner input{
+  color: #FFFFFF;
+  font-family:"PT Sans",sans-serif;
+  font-weight:400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+}
+
+
+.spa{
+  color: #000000;
+  font-family:"PT Sans",sans-serif;
+  font-weight:700;
+  font-size: 30px;
+  line-height:36px;
+  text-align: center;
+
+}
+
+.cards a{
+color: #000000;
+}
+
+.cards-amara{
+  color: #000000;
+  font-family:"PT Sans",sans-serif;
+  font-weight:700;
+  font-size: 24px;
+  line-height:28px;
+  text-align: center;
+
+}
+
+.cards-amara p{
+  color:#333333;
+  font-family:"PT Sans",sans-serif;
+  font-weight:400;
+  font-size: 18px;
+  line-height:21px;
+  text-align: center;
+
+}
+
+.amara-more-details{
+  color: #FFFFFF;
+  background: #756157;
+}
+
+.amara-to-favorites{
+color: #FFFFFF;
+background: #82B3D3;
+}
+
+.cards-villas{
+color: #000000;
+font-family: "PT Sans",sans-serif;
+text-align: center;
+
+}
+
+.diablo{
+  color: #000000;
+  font-family:"PT Sans",sans-serif;
+  font-weight:700;
+  font-size: 24px;
+  line-height:28px;
+  text-align: center;
+}
+
+.cards-villas p{
+  color:#333333;
+  font-family:"PT Sans",sans-serif;
+  font-weight:400;
+  font-size: 18px;
+  line-height:21px;
+  text-align: center;
+}
+
+
+.cards-desert{
+  color: #000000;
+  font-family: "PT Sans",sans-serif;
+  text-align: center;
+}
+
+.desert{
+  color: #000000;
+  font-family:"PT Sans",sans-serif;
+  font-weight:700;
+  font-size: 24px;
+  line-height:28px;
+  text-align: center;
+}
+
+.cards-desert p{
+  color:#333333;
+  font-family:"PT Sans",sans-serif;
+  font-weight:400;
+  font-size: 18px;
+  line-height:21px;
+  text-align: center;
+}
+
+.cards-greentree{
+  color: #000000;
+  font-family: "PT Sans",sans-serif;
+  text-align: center;
+
+}
+
+.greentree{
+  color: #000000;
+  font-family:"PT Sans",sans-serif;
+  font-weight:700;
+  font-size: 24px;
+  line-height:28px;
+  text-align: center;
+}
+
+.cards-greentree p{
+  color:#333333;
+  font-family:"PT Sans",sans-serif;
+  font-weight:400;
+  font-size: 18px;
+  line-height:21px;
+  text-align: center;
 }
