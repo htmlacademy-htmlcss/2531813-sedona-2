@@ -328,7 +328,7 @@ margin: 0%;
 
 .subscription{
   color: #FFFFFF;
-  background-image: url("/images/fon-email.jpg");
+  background-image: url("../images/fon-email.jpg");
   width: 100%;
   height: 415px;
   background-repeat: no-repeat;
@@ -383,7 +383,7 @@ line-height: 40px;
 .main-inner{
 font-family:"PT Sans",sans-serif;
 color: #FFFFFF;
-background-image: url("/images/catalog/hotels-images.jpg");
+background-image: url("../images/catalog/hotels-images.jpg");
 width:1200px;
 height: 412px;
 text-align: center;
