@@ -49,7 +49,7 @@
       </header>
       <div class="catalog_title_menu">
            <form  class="catalog_list">
-          <fieldset class="infrastructure" >
+          <fieldset class="infrastructure">
             <legend class="
             title_menu">Инфраструктура:</legend>
             <ul>
@@ -64,7 +64,7 @@
          <fieldset class="type_house">
           <legend class="title_menu">Тип жилья:</legend>
            <ul>
-          <li><input type="radio" name="subscribe" id="subscribe-field" checked />
+          <li><input type="radio" name="subscribe" id="subscribe-field" checked/>
           <label class="title_label" for="subscribe-field">Гостиница</label></li>
          <li> <input type="radio" name="subscribe" id="subscribe-field"/>
           <label  class="title_label" for="subscribe-field">Мотель</label></li>
@@ -76,21 +76,24 @@
         <legend class="title_menu">Стоимость, ₽:</legend>
 
           От
-          <input value='0'  type="text" name="total" id='total-field'>
+          <input class="input_price"  value='0'  type="text" name="total" id='total-field'>
         </input>
 
           До
-          <input value='9000'  type="text" name="total" id='total-field'>
+          <input class="input_price" value='9000'  type="text" name="total" id='total-field'>
         </input>
         <div class="slidecontainer">
           <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-          <button class="filter-button-blue" type="submit">Применить</button>
-          <button class="filter-button" type="reset">Сбросить</button>
-        </form>
+          <div class="button_catalog">
         </div>
 
+        </div>
       </fieldset>
-
+      <div class="button_price">
+      <button class="filter-button-blue" type="submit">Применить</button>
+      <button class="filter-button" type="reset">Сбросить</button>
+    </div>
+      </form>
   </div>
 </section>
   <div class="hotels_found">
@@ -100,7 +103,7 @@
       <option value="">Cначала дешевые</option>
      </select>
 
-     <span  class="visually-hidden">
+     <span  class="menu_icons">
        <a  href="#"><li><img src="images/catalog/cards.svg" alt="покзать карточками" width="48" height="48"></li></a>
        <a href="#"><li><img src="images/catalog/tile.svg" alt="покзать плиткой" width="48" height="48"></li></a>
        <a  href="#"><li><img src="images/catalog/list.svg" alt="покзать списком" width="48" height="48"></li></a>
@@ -150,6 +153,7 @@
      </li>
    </ul>
  </section>
+
  <section class="subscription_catalog">
    <h3>Подпишитесь на рассылку</h3>
    <p>
