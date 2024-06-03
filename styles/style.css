@@ -26,7 +26,7 @@ body {
   line-height: 24px;
   background-color: white;
   color: black;
-
+  overflow-x:hidden;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -211,8 +211,9 @@ body {
 }
 
 .cards-list {
-  display: flex;
+  display:flex;
   padding: 0;
+
 }
 
 .cads-element {
@@ -389,6 +390,9 @@ body {
   font-size: 20px;
   line-height: 24px;
   text-align: center;
+  width: 150px;
+  height: 175px;
+ padding: 0;
 }
 
 .filter-button-blue {
@@ -409,8 +413,8 @@ body {
   color: #000000;
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 24px;
+  line-height: 28px;
   text-align: center;
 }
 
@@ -425,7 +429,8 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-align: center;
-
+  border: 3px solid #E0E0E0;
+  padding: 20px 20px 16px 20px;
 }
 
 .cards-amara p {
@@ -451,6 +456,8 @@ body {
   color: #000000;
   font-family: "PT Sans", sans-serif;
   text-align: center;
+  border:3px solid #E0E0E0;
+  padding: 20px 20px 16px 20px;
 }
 
 .diablo {
@@ -460,6 +467,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-align: center;
+
 }
 
 .cards-villas p {
@@ -475,6 +483,8 @@ body {
   color: #000000;
   font-family: "PT Sans", sans-serif;
   text-align: center;
+  border:3px solid #E0E0E0;
+  padding: 20px 20px 16px 20px;
 }
 
 .desert {
@@ -499,6 +509,8 @@ body {
   color: #000000;
   font-family: "PT Sans", sans-serif;
   text-align: center;
+  border:3px solid #E0E0E0;
+  padding: 20px 20px 16px 20px;
 }
 
 .greentree {
@@ -561,12 +573,10 @@ ul {
 
 .catalog_menu {
   display: flex;
+  flex-direction: column;
 }
 
-.infrastructure {
-  width: 150px;
-  height: 160px;
-}
+
 
 .infrastructure ul li {
   padding: 0 auto;
@@ -583,6 +593,7 @@ ul {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+
 }
 
 .title_label {
@@ -594,8 +605,14 @@ ul {
 }
 
 .catalog_list {
+  flex-direction: row;
+  align-items: flex-end;
   display: flex;
-  width: 1200px;
+ gap:120px;
+  width: 100%;
+  background-image: url(../images/fon_catalog_price.jpeg);
+
+  height: 412px;
 }
 
 .hotels_found {
@@ -603,10 +620,20 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
+}
+
+.hotels_found h3{
+font-family: "PT Sans", sans-serif;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
 }
 
 .catalog_title_menu {
   width: 1200px;
+  display: flex;
 }
 .subscription_catalog {
   color: #000;
@@ -618,14 +645,16 @@ ul {
 .cards_menu {
   display: flex;
   flex-direction: row;
+  gap:80px;
   flex-wrap: wrap;
-  justify-content: space-between;
-}
+  padding: 0;
+  }
 
 .menu_icons{
 display: flex;
 flex-direction: row;
 list-style-type: none;
+
 }
 
 .input_price{
@@ -634,6 +663,11 @@ width: 100px;
 }
 
 .button_price{
-
+  flex-direction: column;
   display: flex;
+}
+
+.price_catalog{
+width: 300px;
+height: 160px;
 }
