@@ -12,14 +12,16 @@
       <nav class="navigation">
         <img class="logo" src="images/Logo-header.svg" alt="Город Седона"  width="140" height="70"/>
         <ul class="navigation-list">
+          <li></li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">Главная</a>
+            <a class="navigation-link main_link" href="./index.html">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">О седоне</a>
+            <a class="navigation-link about_sedona_link" href="#">О седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="./index.html">Гостиницы</a>
+            <a class="navigation-link
+            hotels_link" href="./catalog.html">Гостиницы</a>
           </li>
         </ul>
       <ul class="navigation-user">
@@ -42,14 +44,24 @@
         catalog_menu">
       <header class="header-inner">
 
-        <a class="breadcrumbs-link" href="./index.html"
-          >
-          <img src="images/home-page.svg" alt="На главную страницу" width="12" height="12"/></a>
-        <a class="breadcrumbs-link">Гостиницы</a>
+
+
+
       </header>
       <div class="catalog_title_menu">
+
+
+
            <form  class="catalog_list">
-            <h1 hidden="true">Гостиницы Седоны</h1>
+            <ul class="catalog_sedona_hotels">
+            <li><h1>Гостиницы Седоны</h1></li>
+            </ul>
+            <ul class="house-sign-more">
+            <li><img src="images/catalog/house_mini_catalog.png" alt="домик" width="12" height="12"></li>
+            <li><img src="images/catalog/more_sign.png" alt="знак больше"width="7" width="10"></li>
+            <li class="hotels_text"><p>гостиницы</p></li>
+          </ul>
+          <div class="elements_catalog_lists">
           <fieldset class="infrastructure">
             <legend class="
             title_menu">Инфраструктура:</legend>
@@ -94,6 +106,7 @@
       <button class="filter-button-blue" type="submit">Применить</button>
       <button class="filter-button" type="reset">Сбросить</button>
     </div>
+  </div>
       </form>
   </div>
 </section>
