@@ -10,31 +10,45 @@
   <body>
     <header class="page-header">
       <nav class="navigation">
-        <img class="logo" src="images/Logo-header.svg" alt="Город Седона"  width="140" height="70"/>
+        <img
+          class="logo"
+          src="images/logo-header.svg"
+          alt="Город Седона"
+          width="140"
+          height="70"
+        />
         <ul class="navigation-list">
           <li></li>
           <li class="navigation-item">
-            <a class="navigation-link main_link" href="./index.html">Главная</a>
+            <a class="navigation-link " href="index.html">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link about_sedona_link" href="#">О седоне</a>
+            <a class="navigation-link " href="#">О Cедоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link
-            hotels_link" href="./catalog.html">Гостиницы</a>
+            <a class="navigation-link" href="./catalog.html">Гостиницы</a>
           </li>
         </ul>
-      <ul class="navigation-user">
+        <ul class="navigation-user">
           <li class="navigation-item">
-            <a class="navigation-link" href="#"><img src="images/search.svg" alt="поиск" width="18" height="18"></a>
+            <a class="navigation-link search_heart" href="#"
+              ><img src="images/search.svg" alt="поиск" width="18" height="18"
+            /></a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#"><img src="images/heart.svg" alt="сердце" width="18" height="17"></a>
+            <a class="navigation-link search_heart" href="#"
+              ><img src="images/heart.svg" alt="сердце" width="18" height="17"
+            /></a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Хочу сюда</a>
-          </li>
-        </ul>
+       </ul>
+       <ul>
+        <li class="navigation-item">
+          <button class="navigation-link-button">
+            <p>хочу сюда!</p>
+          </button></a
+        >
+        </li>
+       </ul>
       </nav>
     </header>
 
@@ -43,23 +57,16 @@
         <section class="
         catalog_menu">
       <header class="header-inner">
-
-
-
-
       </header>
       <div class="catalog_title_menu">
-
-
-
            <form  class="catalog_list">
             <ul class="catalog_sedona_hotels">
             <li><h1>Гостиницы Седоны</h1></li>
             </ul>
-            <ul class="house-sign-more">
-            <li><img src="images/catalog/house_mini_catalog.png" alt="домик" width="12" height="12"></li>
-            <li><img src="images/catalog/more_sign.png" alt="знак больше"width="7" width="10"></li>
-            <li class="hotels_text"><p>гостиницы</p></li>
+            <ul class="breadcrumbs">
+            <li class="breadcrumbs_link"><img src="images/catalog/house_mini_catalog.png" alt="домик" width="12" height="12"></li>
+            <li class="more_sign"><img src="images/catalog/more_sign.png" alt="знак больше"width="7" width="10"></li>
+            <li class="hotels_text"><p>Гостиницы</p></li>
           </ul>
           <div class="elements_catalog_lists">
           <fieldset class="infrastructure">
@@ -113,14 +120,19 @@
   <div class="hotels_found">
     <h3>Найдено гостиниц: 38</h3>
 
-    <select name="pets" id="pet-select">
+    <select class="select_pets" name="pets" id="pet-select">
       <option value="">Cначала дешевые</option>
+      <option value="">Cредние</option>
+      <option value="">Дорогие</option>
      </select>
 
      <span  class="menu_icons">
        <a  href="#"><li><img src="images/catalog/cards.svg" alt="покзать карточками" width="48" height="48"></li></a>
+       <span class="visually-hidden">Показать карточки</span>
        <a href="#"><li><img src="images/catalog/tile.svg" alt="покзать плиткой" width="48" height="48"></li></a>
+       <span class="visually-hidden">Показать слайды</span>
        <a  href="#"><li><img src="images/catalog/list.svg" alt="покзать списком" width="48" height="48"></li></a>
+       <span class="visually-hidden">Показать список</span>
       </span>
     </div>
         <section class="cards">
@@ -168,6 +180,29 @@
    </ul>
  </section>
 
+<div class="pagination-container">
+  <ul class="pagination">
+    <li class="pagination-item">
+      <a class="pagination-link pagination-link-white" href="">1</a>
+    </li>
+    <li class="pagination-item">
+      <a class="pagination-link" href="">2</a>
+    </li>
+    <li class="pagination-item">
+      <a class="pagination-link" href="">3</a>
+    </li>
+    <li class="pagination-item">
+      <a class="pagination-link" href="">4</a>
+    </li>
+   <li class="pagination-item">
+      <a class="pagination-link transparent-link" href="">...</a>
+    </li>
+    <li class="pagination-item">
+      <a class="pagination-link" href="">10</a>
+    </li>
+</ul>
+</div>
+
  <section class="subscription_catalog">
    <h3>Подпишитесь на рассылку</h3>
    <p>
@@ -175,14 +210,14 @@
    </p>
    <form class="form" action="" method="post">
      <label for="email"></label>
-     <input
+     <input class="form_email"
        type="email"
        placeholder="Ваш e-mail"
        name="email"
        id="email"
        required
      />
-     <button class="blue-button" type="submit">
+     <button class="blue-button subscribe_button" type="submit">
        <span>Подписаться</span>
      </button>
    </form>
@@ -190,58 +225,55 @@
       </div>
 </main>
 
-
 <footer class="page-footer">
-
-  <ul class="social-media">
-    <li>
-      <a href="#">
+  <ul class="footer_social">
+    <li class="footer_social_list" >
+      <a class="footer_social_item in_contact_icon" href="#">
         <img
-          class="vk-images"
-          src="images/VK.svg"
+          class=""
+          src="images/vkontakte.svg"
           alt="Вконтакте"
           width="24"
           height="14"
-      /></a>
+      /><span class="visually-hidden">ВКонтакте</span></a>
     </li>
-    <li>
-      <a href="#">
+    <li class="footer_social_list">
+        <a class="footer_social_item telegram_icon" href="#">
         <img
-          class="telegram-images"
-          src="images/Telegram.svg"
-          alt="Телеграм"
-          width="18"
-          height="15"
-      /></a>
+         src="images/telegram.svg"
+              alt="Телеграм"
+                width="18"
+                 height="15"/><span class="visually-hidden">Telegram</span></a>
+
     </li>
-    <li>
-      <a href="#">
+    <li class="footer_social_list">
+      <a class="footer_social_item youtube_icon" href="#">
         <img
-          class="youtube-images"
-          src="images/YouTube.svg"
+
+          src="images/youtube.svg"
           alt="Ютуб"
           width="22"
           height="17"
-      /></a>
+      /><span class="visually-hidden">Youtube</span></a>
     </li>
   </ul>
 
-  <ul >
-    <li ><a class="telephone-footer" href="#"> +7 (812) 812-12-12</a></li>
-
-    </ul>
-      <ul class="images-html">
-        <li>
+  <ul class="number_footer">
+    <li><a class="telephone-footer" href="#"> +7 (812) 812-12-12</a></li>
+  </ul>
+  <ul class="images-html">
+    <li>
       <img
         class="images-html_academy"
-        src="images/HTML-Academy.svg"
+        src="images/html-academy.svg"
         alt="html academy"
         width="115"
         height="33"
       />
     </li>
   </ul>
-
 </footer>
+
+
   </body>
 </html>
