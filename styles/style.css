@@ -582,6 +582,11 @@ border-radius: 4px 0 0;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
+  grid-row: 2/3;
+  display: grid;
+  grid-column: 2/ 4;
+  justify-content: start;
+  align-self: center;
 }
 
 .cards a {
@@ -589,7 +594,7 @@ border-radius: 4px 0 0;
 }
 
 
-.spa,
+/* .spa,
 .text_hotels,
 .text_hotels_catalog,
 .amara-more-details,
@@ -598,26 +603,23 @@ border-radius: 4px 0 0;
 .rating{
 
   grid-column:1/4;
-}
+} */
 
-.spa{
-grid-row: 2/3;
-display: grid;
-grid-column: 2 / 4;
-justify-content: start;
-}
+
 
 
 .text_hotels_catalog{
 grid-column:3/3;
 justify-content: end;
 display: grid;
+align-self: center;
 }
 
 .text_hotels{
 grid-column: 2/2;
 display:grid;
 justify-content:start;
+align-self: center;
 }
 
 
@@ -634,17 +636,12 @@ grid-row:4/5;
 } */
 
 
-.amara-more-details{
-  grid-row:4/5;
-  grid-column:2/2;
 
-}
 
 .amara_stars{
-
+  align-self:center;
   grid-row:5/6;
   grid-column:2/2;
-
 }
 
 .rating_button{
@@ -664,7 +661,7 @@ grid-row:4/5;
 
 .cards-amara {
   display: grid;
-  grid-template-rows:212px  50px 40px 50px 38px;
+  grid-template-rows:212px  36px 21px 36px 38px;
   grid-template-columns:20px 150px 150px 20px;
   color: #000000;
   font-family: "PT Sans", sans-serif;
@@ -675,7 +672,8 @@ grid-row:4/5;
   border: 3px solid #E0E0E0;
   padding: 0;
   width: 340px;
-  /* min-height: 438px; */
+  align-self:center;
+  row-gap:16px;
   }
 
 .image_hotel_1{
@@ -702,6 +700,9 @@ grid-row:4/5;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  grid-row:4/5;
+  grid-column:2/2;
+  align-self: center;
 }
 
 .amara-to-favorites {
@@ -713,6 +714,7 @@ grid-row:4/5;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  align-self: center;
 }
 
 
@@ -726,7 +728,7 @@ padding: 0;
 
 .cards-villas {
   display: grid;
-  grid-template-rows:212px  50px 40px 50px 38px;
+  grid-template-rows:212px  36px 21px 36px 38px;
   grid-template-columns:20px 150px 150px 20px;
   color: #000000;
   font-family: "PT Sans", sans-serif;
@@ -734,7 +736,7 @@ padding: 0;
   border:3px solid #E0E0E0;
   padding:0;
   width: 340px;
-  min-height: 438px;
+  row-gap:16px;
 }
 
 .diablo {
@@ -747,7 +749,8 @@ padding: 0;
   grid-row: 2 / 3;
   display: grid;
   grid-column: 2 / 4;
-    justify-content: start;
+  justify-content: start;
+  align-self: center;
 }
 
 
@@ -764,7 +767,7 @@ padding: 0;
 
 .cards-desert {
   display: grid;
-  grid-template-rows: 212px 50px 40px 50px 38px;
+  grid-template-rows: 212px 36px 21px 36px 38px;
   grid-template-columns: 20px 150px 150px 20px;
   color: #000000;
   font-family: "PT Sans", sans-serif;
@@ -772,7 +775,7 @@ padding: 0;
   border:3px solid #E0E0E0;
   padding:0;
   width:340px;
-  min-height: 438px;
+  row-gap:16px;
 }
 
 .desert {
@@ -786,6 +789,7 @@ padding: 0;
   display: grid;
   grid-column: 2 / 4;
   justify-content: start;
+  align-self: center;
 }
 
 .cards-desert p {
@@ -799,7 +803,7 @@ padding: 0;
 
 .cards-greentree {
   display: grid;
-  grid-template-rows: 212px 50px 40px 50px 38px;
+  grid-template-rows: 212px 36px 21px 36px 38px;
   grid-template-columns: 20px 150px 150px 20px;
   color: #000000;
   font-family: "PT Sans", sans-serif;
@@ -807,7 +811,7 @@ padding: 0;
   border:3px solid #E0E0E0;
   padding:0;
   width: 340px;
-  min-height:438px;
+  row-gap:16px;
 }
 
 .greentree {
@@ -821,6 +825,7 @@ padding: 0;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
+  align-self: center;
 }
 
 .rating{
