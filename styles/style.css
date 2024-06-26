@@ -594,16 +594,7 @@ border-radius: 4px 0 0;
 }
 
 
-/* .spa,
-.text_hotels,
-.text_hotels_catalog,
-.amara-more-details,
-.amara-to-favorites,
-.amara_stars,
-.rating{
 
-  grid-column:1/4;
-} */
 
 
 
@@ -613,6 +604,11 @@ grid-column:3/3;
 justify-content: end;
 display: grid;
 align-self: center;
+font-family: "PT Sans", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #333333;
 }
 
 .text_hotels{
@@ -620,6 +616,11 @@ grid-column: 2/2;
 display:grid;
 justify-content:start;
 align-self: center;
+font-family: "PT Sans", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #333333;
 }
 
 
@@ -630,10 +631,7 @@ align-self: center;
  justify-content:end;
 }
 
-/* .amara-to-favorites{
-grid-column:3/3;
-grid-row:4/5;
-} */
+
 
 
 
@@ -658,23 +656,27 @@ grid-row:4/5;
 
 }
 
-
-.cards-amara {
+.hotel_cards_catalog{
   display: grid;
   grid-template-rows:212px  36px 21px 36px 38px;
   grid-template-columns:20px 150px 150px 20px;
   color: #000000;
   font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-weight:700;
+  font-size:24px;
+  line-height:28px;
   text-align: center;
   border: 3px solid #E0E0E0;
   padding: 0;
   width: 340px;
   align-self:center;
   row-gap:16px;
-  }
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
 
 .image_hotel_1{
   grid-column: 1/-1;
@@ -726,18 +728,7 @@ padding: 0;
 
 }
 
-.cards-villas {
-  display: grid;
-  grid-template-rows:212px  36px 21px 36px 38px;
-  grid-template-columns:20px 150px 150px 20px;
-  color: #000000;
-  font-family: "PT Sans", sans-serif;
-  text-align: center;
-  border:3px solid #E0E0E0;
-  padding:0;
-  width: 340px;
-  row-gap:16px;
-}
+
 
 .diablo {
   color: #000000;
@@ -765,18 +756,7 @@ padding: 0;
   text-align: center;
 }
 
-.cards-desert {
-  display: grid;
-  grid-template-rows: 212px 36px 21px 36px 38px;
-  grid-template-columns: 20px 150px 150px 20px;
-  color: #000000;
-  font-family: "PT Sans", sans-serif;
-  text-align: center;
-  border:3px solid #E0E0E0;
-  padding:0;
-  width:340px;
-  row-gap:16px;
-}
+
 
 .desert {
   color: #000000;
@@ -801,18 +781,7 @@ padding: 0;
   text-align: center;
 }
 
-.cards-greentree {
-  display: grid;
-  grid-template-rows: 212px 36px 21px 36px 38px;
-  grid-template-columns: 20px 150px 150px 20px;
-  color: #000000;
-  font-family: "PT Sans", sans-serif;
-  text-align: center;
-  border:3px solid #E0E0E0;
-  padding:0;
-  width: 340px;
-  row-gap:16px;
-}
+
 
 .greentree {
   grid-row: 2 / 3;
@@ -943,8 +912,8 @@ ul {
 
 .catalog_list {
   width: 100%;
-
-  background-image: url(../images/fon_catalog_price.jpeg);
+  background-repeat: no-repeat;
+  background-image: url(../images/fon_catalog_price.jpeg) ;
    height: 412px;
 }
 
@@ -973,9 +942,9 @@ font-family: "PT Sans", sans-serif;
 font-weight: 700;
 font-size: 30px;
 line-height: 36px;
-padding:56px 200px 0   0;
+
 text-transform: uppercase;
-margin:0;
+margin-right: auto;
 }
 
 .catalog_title_menu {
