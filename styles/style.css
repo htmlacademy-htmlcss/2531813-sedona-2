@@ -41,6 +41,7 @@ padding:0;
 border:0;
 clip: rect(0 0 0 0);
 overflow: hidden;
+display: block;
 }
 
 
@@ -87,10 +88,7 @@ overflow: hidden;
 
 }
 
-.search_element{
 
-
-}
 
 .navigation-link-button{
 
@@ -101,6 +99,7 @@ overflow: hidden;
     border-radius: 4px;
     border-width: 0;
     margin-right: 70px;
+    cursor: pointer;
 }
 
 .navigation-link-button p{
@@ -257,7 +256,7 @@ line-height: 21px;
 
 
 .rectangle {
-  margin: 0 170px 30px 170px;
+  margin: 0 170px 24px  170px;
 }
 
 .small-area {
@@ -295,7 +294,7 @@ margin: 112px 112px 30px 112px;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  margin: 64px 0 20px 0;
+  margin:60px 0 16px 0;
   text-transform: uppercase;
 }
 
@@ -315,7 +314,7 @@ margin: 112px 112px 30px 112px;
 
 }
 
-.cads-element {
+.cards-element {
   color: #000000;
   background: #83b3d31f;
   text-align: center;
@@ -327,18 +326,18 @@ margin: 112px 112px 30px 112px;
   background-color: #ffffff;
 }
 
-.cads-element h4 {
+.cards-element h4 {
   color: #000000;
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
-  margin: 0 86px 30px 86px;
+  margin:0 0 28px;
   text-transform: uppercase;
 }
 
-.cads-element p {
+.cards-element p {
   color: #333333;
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
@@ -389,11 +388,12 @@ margin: 112px 112px 30px 112px;
 .search-button {
   color: #ffffff;
   background: #756157;
-  width: 367px;
+  width: 377px;
   height: 52px;
   border-radius: 4px;
   border-width: 0;
   margin: 0 0 96px 0;
+  cursor: pointer;
 }
 
 .search-button p {
@@ -442,6 +442,7 @@ margin: 112px 112px 30px 112px;
 .blue-button {
   color: #ffffff;
   background: #82b3d3;
+  cursor: pointer;
 }
 
 .subscribe_button{
@@ -454,7 +455,7 @@ margin: 112px 112px 30px 112px;
   text-transform: uppercase;
   width: 232px;
   height: 52px;
-
+  cursor: pointer;
 }
 
 .filter-button{
@@ -466,7 +467,7 @@ margin: 112px 112px 30px 112px;
   border: medium none;
 	background-image: none;
 	background: transparent;
-
+ cursor: pointer;
 
  text-transform: uppercase;
 }
@@ -491,9 +492,16 @@ border-radius: 4px 0 0;
   line-height: 36px;
 }
 
+.logo_text_image{
+  position: absolute;
+  top: 492px;
+
+
+}
+
 .hero {
   background-image: url("../images/Fon-images.jpg");
-  width: 1200px;
+   width: 1200px;
   height: 485px;
   background-size: cover;
 }
@@ -549,6 +557,7 @@ border-radius: 4px 0 0;
   width: 150px;
   height: 175px;
   padding: 0;
+
   margin-left: 70px;
   margin-right: 46px;
   border: 0 none;
@@ -564,6 +573,7 @@ border-radius: 4px 0 0;
   width:190px;
   height:36px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .main-inner input {
@@ -589,14 +599,21 @@ border-radius: 4px 0 0;
   align-self: center;
 }
 
+.swimming_pool_parking_wi-fi{
+
+  width: 20px;
+  height: 20px;
+}
+
+.hotel_and_apartments{
+width: 20px;
+height: 20px;
+
+}
+
 .cards a {
   color: #000000;
 }
-
-
-
-
-
 
 
 .text_hotels_catalog{
@@ -650,11 +667,7 @@ color: #333333;
   justify-content:end;
   }
 
-.rating{
-  grid-row:5/6;
-  grid-column:3/3;
 
-}
 
 .hotel_cards_catalog{
   display: grid;
@@ -673,6 +686,7 @@ color: #333333;
   row-gap:16px;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-radius: 4px;
 }
 
 
@@ -705,6 +719,7 @@ color: #333333;
   grid-row:4/5;
   grid-column:2/2;
   align-self: center;
+  cursor: pointer;
 }
 
 .amara-to-favorites {
@@ -717,15 +732,13 @@ color: #333333;
   font-size: 16px;
   line-height: 20px;
   align-self: center;
+  cursor: pointer;
 }
 
 
 .title_legend{
-
 margin: 0;
 padding: 0;
-
-
 }
 
 
@@ -802,6 +815,9 @@ background: #F2F2F2;
 color: #333333;
 width: 140px;
 height: 37px;
+grid-row:5/6;
+grid-column:3/3;
+cursor: pointer;
 }
 
 
@@ -831,7 +847,8 @@ max-width: 190px;
 display:flex;
 align-items: center;
 flex-wrap:wrap;
-margin-left: -80px;
+margin-bottom: 0;
+margin-left:  -75px;
 }
 
 .footer_social_list{
@@ -861,8 +878,8 @@ margin-left: 26px;
 }
 
 .number_footer{
-margin-top: 40px;
-margin-left: 40px;
+  margin-top: 45px;
+  margin-left: 20px;
 
 }
 
@@ -870,8 +887,8 @@ margin-left: 40px;
   list-style-type: none;
   width: 115px;
   height: 33px;
-  margin-top: 42px;
-  margin-right: -20px;
+  margin-top: 50px;
+  margin-right: -25px;
 }
 
 ul {
@@ -900,6 +917,7 @@ ul {
   line-height: 24px;
   padding:0;
   margin-bottom: 32px;
+  text-transform: capitalize;
 }
 
 .title_label {
@@ -919,21 +937,22 @@ ul {
 
 .elements_catalog_lists{
 display: flex;
-margin-top: 30px;
-
+margin-top: 37px;
 }
 
 .hotels_found {
   display: flex;
-  align-items: flex-end;
+  align-items:center;
   margin-left: 70px;
-  margin-right: 70px;
+  margin-right: 55px;
+  height: 100px;
+  padding-top: 25px;
 }
 
 
 .catalog_line{
 margin-bottom: 40px;
-
+margin-left: 70px;
 }
 
 
@@ -984,7 +1003,7 @@ margin-right: auto;
   grid-template-columns:repeat(3, 340px);
   padding:0;
   margin-left: 70px;
-  margin-top: 40px;
+
   margin-bottom: 40px;
 }
 
@@ -1013,6 +1032,7 @@ display: flex;
 flex-direction: row;
 list-style-type: none;
 gap:8px;
+margin-right: 15px;
 }
 
 .input_price{
@@ -1042,7 +1062,7 @@ margin:0;
 
 .breadcrumbs{
 display:flex;
-margin:0;
+margin: 0 0 0 2px;
 padding:0;
 
 }
@@ -1065,13 +1085,12 @@ margin-right: 10px;
 
 .more_sign{
 margin-right: 10px;
-
-
 }
 
 
 .catalog_sedona_hotels {
 padding: 0;
+margin-bottom: 0;
 }
 
 .catalog_sedona_hotels h1{
@@ -1102,16 +1121,16 @@ position: relative;
 
 
 .images_house_cards{
-margin: 82px 162px 30px 164px;
+margin:82px 0 22px 0;
 }
 
 .images_burger_cards{
-margin:82px 164px 30px 164px;
+margin:82px 0 25px 0;
 }
 
 
 .images_present_cards{
-margin:80px 168px 28px 168px;
+margin:82px 0 20px 0;
 }
 
 
@@ -1119,8 +1138,6 @@ margin:80px 168px 28px 168px;
 .vk-images{
 width: 48px;
 height:40px;
-
-/* margin:58px 13px 48px 82px; */
 }
 
 .telegram-images{
@@ -1179,6 +1196,4 @@ background-color:#F2F2F2;
 .transparent-link{
   color: #000;
   background-color: transparent;
-
-
 }
