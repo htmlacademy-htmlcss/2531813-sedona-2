@@ -2001,7 +2001,7 @@ ul {
   width:100%;
   height: 100%;
   background-color:#F2F2F2CC;
-  display: none;
+  /* display: none; */
 }
 
 
@@ -2015,7 +2015,9 @@ ul {
   line-height: 24px;
   width: 113px;
   margin-right: 24px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .date-of-departure{
