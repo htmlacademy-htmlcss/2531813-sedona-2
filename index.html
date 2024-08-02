@@ -230,55 +230,56 @@
                     </button>
                 </a>
                 <div class="modal-container">
-                    <div class="modal modal-auth ">
+                    <div class="modal modal-auth">
                         <button class="modal-close-button">
                             <span class="visually-hidden">закрыть</span>
                         </button>
                         <section class="modal-content">
                             <h2 class="modal-title">поиск гостиницы в седоне</h2>
 
-                            <fieldset class="date_modal">
+                            <fieldset class="date_modal_check-in">
                               <label class="arrival_date" for="start">дата заезда:</label>
 
                               <input class="date_of_departure"
                               type="text"
 
-                              value="27 апреля 2023"/>
+                              value="27 апреля 2020"/>
                             </fieldset>
 
 
                             <p class="text_modal">Мы не можем отправить вас в прошлое</p>
 
-                            <br>
-                            <fieldset class="date_modal">
+
+                            <fieldset class="date_modal_departure">
                             <label class="arrival_date date-of-departure" for="start">дата выезда:</label>
 
-                            <input class=" date_departure"
+                            <input class="date_departure"
                             type="text"
 
                             value="1 сентября 2023"/>
                           </fieldset>
 
 
-                            <br>
-                            <p class="free_rooms_text">на эти даты пока есть свободные номера.пока есть.</p>
-                            <fieldset class="container_button_tooltip">
-                            <label class="adults" for="tentacles">взрослые:<button class="button_model_plus">-</button><input class="plus_minus"value="2"><button class="button_model_minus">+</button>
-                              </label>
 
-                            <label class="" for="tentacles"><span class="child_modal">дети:</span>
+                            <p class="free_rooms_text">На эти даты есть свободные номера. Пока есть.</p>
+                            <fieldset class="container_button_tooltip">
+                            <label class="adults" for="tentacles">Взрослые:</label><button class="button_model_plus"><img class="minus-images" src="images/minus.svg" alt="минус"></button><input class="plus_minus"value="2"><button class="button_model_minus"><img class="plus-images" src="images/plus.svg" alt="плюс"></button>
+
+
+                            <label class="child_label" for="tentacles"><span class="child_modal">Дети:</span></label>
 
                                 <span class="tooltip"> <button class="tooltip-toggle" type="button">
                                   <svg class="tooltip-icon" width="1" height="9" viewBox="0 0 1 9" fill="currentColor"
                                   xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#a)">
-                                     <path d="M0 9h1V3H0v6ZM1 0H0v1h1V0Z" />
+                                     <path d="M0 9h1V3H0v6ZM1 0H0v1h1V0Z"/>
                                     </g>
                                   </svg>
                                 </button>
+
                               </span>
 
-                              <button class="button_model_plus">-</button><input class="plus_minus"value="2"><button class="button_model_minus">+</button>
+                              <button class="button_model_plus"><img  class="minus-images" src="images/minus.svg" alt="минус"></button><input class="plus_minus"value="2"><button class="button_model_minus"><img class="plus-images" src="images/plus.svg" alt="плюс"></button>
                             </fieldset>
 
                            </label>
