@@ -435,16 +435,16 @@ body {
 }
 
 .adults {
-  padding-left: 70px;
-  padding-right: 46px;
-  color: #000000;
-  font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+padding-left: 68px;
+padding-right: 46px;
+color: #000000;
+font-family: "PT Sans", sans-serif;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 .expected-dates p {
@@ -2048,7 +2048,7 @@ ul {
   background: #f2f2f2;
   background-image: url(../images/icon_calendar.svg);
   background-repeat: no-repeat;
-  background-position: 98% 50%;
+  background-position: 94% 50%;
   cursor: pointer;
   color: #000000;
   font-family: "PT Sans", sans-serif;
@@ -2087,9 +2087,9 @@ ul {
   border: none;
   cursor: pointer;
   background-color: #f2f2f2;
-
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
+  padding:0;
 }
 
 .button_model_plus {
@@ -2098,9 +2098,9 @@ ul {
   border: none;
   cursor: pointer;
   background-color: #f2f2f2;
-
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
+  padding:0;
 }
 
 .plus_minus {
@@ -2242,12 +2242,12 @@ ul {
 }
 
 .date_of_departure {
-  width: 420px;
-  background-image: url("../images/icon_calendar.svg");
-  background-repeat: no-repeat;
-  background-position: 98% 50%;
-  cursor: pointer;
-  padding-left: 20px;
+  width:420px;
+  background-image:url("../images/icon_calendar.svg");
+  background-repeat:no-repeat;
+  background-position:95% 50%;
+  cursor:pointer;
+  padding-left:20px;
 }
 
 .button_modal_find {
@@ -2271,7 +2271,7 @@ ul {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  padding-left: 88px;
+  padding-left: 82px;
   padding-right: 10px;
   display: flex;
   flex-direction: column;
@@ -2282,7 +2282,12 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 40px;
+  padding-right:45px;
+}
+
+
+.right_plus{
+padding-left:4px;
 }
 
 .child_label {
@@ -2295,10 +2300,13 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 }
 
 .minus-images {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 15px;
+  padding-top: -2px;
 }
