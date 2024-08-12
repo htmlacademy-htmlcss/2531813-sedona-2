@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="page-header">
+    <header class="page-header" data-test="header">
         <nav class="navigation">
             <img class="logo" src="images/logo-header.svg"
             alt="Город Седона" width="140"
@@ -70,13 +70,11 @@
         </nav>
     </header>
 
-    <main class="main-inner main-container">
+    <main class="main-inner main-container" data-test="main">
         <div class="page-container">
             <section class="
         catalog_menu">
-                <header class="header-inner">
-                </header>
-                <div class="catalog_title_menu">
+               <div class="catalog_title_menu">
                     <form class="catalog_list">
                         <ul class="catalog_sedona_hotels">
                             <li>
@@ -95,7 +93,7 @@
                                 <p>Гостиницы</p>
                             </li>
                         </ul>
-                        <div class="elements_catalog_lists">
+                        <div class="elements_catalog_lists" data-test="filter">
                             <fieldset class="infrastructure">
                                 <legend class="infastructure_header">Инфраструктура:</legend>
                                 <ul class="list-infastructure">
@@ -164,9 +162,9 @@
                                 <div class="container_input_price">
                                    <label>
 
-                                  <input class="input_price input_price_left"
+                                  <!-- <input class="input_price input_price_left"
                                   placeholder="от"
-                                    value="0"
+                                    value=""
                                     type="number"
                                     name="total"
                                     id='total-field'>
@@ -178,7 +176,19 @@
                                     type="number"
                                     name="total"
                                     id='total-field'>
-                                    </input>
+                                    </input> -->
+
+                                    <div class="price-inputs">
+                                      <div class="input-group">
+                                          <input type="text" value="0" class="input-field" />
+                                          <span class="label">ОТ</span>
+                                      </div>
+                                      <div class="input-group">
+                                          <input type="text" value="9000" class="input-field" />
+                                          <span class="label">ДО</span>
+                                      </div>
+                                  </div>
+
                                 </div>
                                 <div class="range">
                                     <div class="range-scale">
@@ -199,7 +209,7 @@
                     </form>
                 </div>
             </section>
-            <div class="hotels_found">
+            <div class="hotels_found" data-test="catalog">
                 <h3>Найдено гостиниц: 38</h3>
                 <div class="select">
                     <select class="select_pets" aria-label="Сортировка">
@@ -225,7 +235,7 @@
                 <span class="visually-hidden">Показать список</span>
                 </span>
             </div>
-            <section class="cards">
+            <section class="cards" data-test="cards">
                 <ul class="cards_menu">
                     <li class="hotel_cards_catalog">
                         <a class="image_hotel_1"> <img src="images/catalog/hotel-1.jpg"
@@ -344,7 +354,7 @@
                 </ul>
             </div>
 
-            <section class="subscription_catalog">
+            <section class="subscription_catalog" data-test="subscribe">
                 <h3>Подпишитесь на рассылку</h3>
                 <p>
                     Только полезная информация и никакого спама,
@@ -366,7 +376,7 @@
         </div>
     </main>
 
-    <footer class="page-footer">
+    <footer class="page-footer" data-test="footer">
         <ul class="footer_social">
             <li class="footer_social_list">
                 <a class="footer_social_item in_contact_icon"

@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header class="page-header">
+    <header class="page-header" data-test="header">
         <nav class="navigation">
             <img class="logo" src="images/logo-header.svg"
             alt="Город Седона" width="140"
@@ -70,10 +70,10 @@
             </ul>
         </nav>
     </header>
-    <main class="main-index main-container">
+    <main class="main-index main-container" data-test="main">
         <h1 class="visually-hidden">Седона</h1>
         <div class="page-container">
-            <div class="hero continuation-images">
+            <div class="hero continuation-images" data-test="hero">
                 <img class="hero-text" src="images/welcome.png"
                 alt="hero-text" width="458"
                 height="352" />
@@ -82,9 +82,9 @@
                 width="1200px" height="57px"
                 />
             </div>
-            <section class="description">
+            <section class="description" data-test="description">
                 <h2 class="description-text">
-            Седона — небольшой городок в аризоне,<br/>
+            Седона — небольшой городок в аризоне,
             заслуживающий большего!
           </h2>
                 <p class="text-cause">
@@ -92,8 +92,8 @@
                     чем Гранд-Каньон!
                 </p>
             </section>
-            <section class="">
-                <ul class="advantages">
+            <section class="advantages" data-test="advantages">
+                <ul class="advantages_list">
                     <li class="advantage-item blue-item">
                         <h2 class="visually-hidden">Преимущества Седоны</h2>
                         <h3>Настоящий<br />городок</h3>
@@ -103,9 +103,9 @@
                         />
                         <p class="blue_text">
                             Седона — не аттракцион для
-                            <br />туристов, там
+                            туристов, там
                             течёт своя
-                            <br />жизнь
+                            жизнь
                         </p>
                     </li>
                     <li>
@@ -116,13 +116,13 @@
                     </li>
 
                     <li class="advantage-item small-area">
-                        <h3>Небольшая<br />площадь</h3>
+                        <h3>Небольшая площадь</h3>
                         <img class="rectangle" src="images/rectangle.svg"
                         alt="прямоугольник"
                         width="60" height="2"
                         />
                         <p>Все достопримечательности
-                            <br />находятся очень
+                            находятся очень
                             близко
                         </p>
                     </li>
@@ -169,8 +169,8 @@
                     </li>
                 </ul>
             </section>
-            <section class="come-to-sedona">
-                <h2>Приезжайте в Седону отдохнуть <br>в комфорте и уюте!</h2>
+            <section class="come-to-sedona" data-test="service">
+                <h2>Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
                 <p>Опытный персонал и качественное
                     обслуживание!
                 </p>
@@ -215,7 +215,7 @@
                 </ul>
             </section>
 
-            <section class="expected-dates">
+            <section class="expected-dates" data-test="search">
                 <h3>Заинтересовались?</h3>
                 <p>
                     Укажите предполагаемые даты поездки,
@@ -223,80 +223,28 @@
                     предложения гостиниц
                     в Седоне
                 </p>
-                <a href="./catalog.html">
+                <a href="./modal.html">
                     <button class="search-button">
                         <p>Поиск гостиницы в
                             седоне
                         </p>
                     </button>
                 </a>
-                <div class="modal-container">
-                    <div class="modal modal-auth">
-                        <button class="modal-close-button">
-                            <span class="visually-hidden">закрыть</span>
-                        </button>
-                        <section class="modal-content">
-                            <h2 class="modal-title">поиск гостиницы в седоне</h2>
 
-                            <fieldset class="date_modal_check-in">
-                              <label class="arrival_date" for="start">дата заезда:</label>
-
-                              <input class="date_of_departure"
-                              type="text"
-
-                              value="27 апреля 2020"/>
-                            </fieldset>
-
-
-                            <p class="text_modal">Мы не можем отправить вас в прошлое</p>
-
-
-                            <fieldset class="date_modal_departure">
-                            <label class="arrival_date date-of-departure" for="start">дата выезда:</label>
-
-                            <input class="date_departure"
-                            type="text"
-
-                            value="1 сентября 2023"/>
-                          </fieldset>
-
-
-
-                            <p class="free_rooms_text">На эти даты есть свободные номера. Пока есть.</p>
-                            <fieldset class="container_button_tooltip">
-                            <label class="adults" for="tentacles">Взрослые:</label><button class="button_model_plus"><img class="minus-images" src="images/minus.svg" alt="минус"></button><input class="plus_minus "value="2"><button class="button_model_minus"><img class="plus-images" src="images/plus.svg" alt="плюс"></button>
-
-
-                            <label class="child_label" for="tentacles"><span class="child_modal">Дети:</span></label>
-
-                                <span class="tooltip"><button class="tooltip-toggle "type="button">i
-
-                                <span class="triangle_modal"></span>
-                                 </button>
-
-                              </span>
-
-                              <button class="button_model_plus"><img class="minus-images" src="images/minus.svg" alt="минус"></button><input class="plus_minus"value="2"><button class="button_model_minus"><img class="plus-images right_plus" src="images/plus.svg" alt="плюс"></button>
-                            </fieldset>
-
-                           </label>
-                           <button class="button_modal_find" type="submit">найти</button>
-
-                    </div>
 
                     </section>
                 </div>
         </div>
         </section>
 
-        <section class="subscription">
+        <section class="subscription" data-test="subscription">
             <h3>Подпишитесь на рассылку</h3>
             <p>
                 Только полезная информация и никакого спама,
                 <br /> честное бойскаутское!
             </p>
             <div class="form_email_label">
-                <form class="form" action="" method="post">
+                <form class="form" action="" method="get">
                     <label for="email"></label>
                     <input class="form_email" type="email" placeholder="Ваш e-mail"
                     name="email" id="email"
@@ -312,7 +260,7 @@
         </div>
     </main>
 
-    <footer class="page-footer">
+    <footer class="page-footer" data-test="footer">
         <ul class="footer_social">
             <li class="footer_social_list">
                 <a class="footer_social_item in_contact_icon"
