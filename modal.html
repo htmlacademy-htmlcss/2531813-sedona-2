@@ -9,6 +9,7 @@
     <title>HTML Academy:SEDONA</title>
     <link rel="icon" href="favicon.ico"><!-- 32×32 -->
 </head>
+<form>
 <div class="modal-container" data-test="modal">
   <div class="modal modal-auth">
      <a href="./index.html"><button class="modal-close-button">
@@ -23,7 +24,7 @@
             <input class="date_of_departure"
             type="text"
 
-            value="27 апреля 2020"/>
+            value="27 апреля 2020" required/>
           </fieldset>
 
 
@@ -36,14 +37,11 @@
           <input class="date_departure"
           type="text"
 
-          value="1 сентября 2023"/>
+          value="1 сентября 2023" required/>
         </fieldset>
-
-
-
-          <p class="free_rooms_text">На эти даты есть свободные номера. Пока есть.</p>
+            <p class="free_rooms_text">На эти даты есть свободные номера. Пока есть.</p>
           <fieldset class="container_button_tooltip">
-          <label class="adults" for="tentacles">Взрослые:</label><button class="button_model_plus"><img class="minus-images" src="images/minus.svg" alt="минус"></button><input class="plus_minus "value="2"><button class="button_model_minus"><img class="plus-images" src="images/plus.svg" alt="плюс"></button>
+          <label class="adults" for="tentacles">Взрослые:</label><button type="button" class="button_model_plus"><img class="minus-images" src="images/minus.svg" alt="минус"></button><input class="plus_minus "value="2"><button type="button" class="button_model_minus"><img class="plus-images" src="images/plus.svg" alt="плюс"></button>
 
 
           <label class="child_label" for="tentacles"><span class="child_modal">Дети:</span></label>
@@ -55,10 +53,11 @@
 
             </span>
 
-            <button class="button_model_plus"><img class="minus-images" src="images/minus.svg" alt="минус"></button><input class="plus_minus"value="2"><button class="button_model_minus"><img class="plus-images right_plus" src="images/plus.svg" alt="плюс"></button>
+            <button type="button" class="button_model_plus"><img class="minus-images" src="images/minus.svg" alt="минус"></button><input class="plus_minus"value="2"><button type="button" class="button_model_minus"><img class="plus-images right_plus" src="images/plus.svg" alt="плюс"></button>
           </fieldset>
 
          </label>
          <button class="button_modal_find" type="submit">найти</button>
 
   </div>
+</form>
