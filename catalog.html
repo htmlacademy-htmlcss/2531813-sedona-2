@@ -14,12 +14,11 @@
 <body>
     <header class="page-header" data-test="header">
         <nav class="navigation">
-            <img class="logo" src="images/logo-header.svg"
+          <a href="./index.html"> <img class="logo" src="images/logo-header.svg"
             alt="Город Седона" width="140"
-            height="70" />
+            height="70" /></a>
             <ul class="navigation-list">
-                <li></li>
-                <li class="navigation-item">
+               <li class="navigation-item">
                     <a class="navigation-link" href="./index.html">Главная</a>
                 </li>
                 <li class="navigation-item">
@@ -34,6 +33,7 @@
                     <a href="#">
                         <svg class="search_icon"
                         xmlns="http://www.w3.org/2000/svg"
+                        alt="поиск"
                         aria-hidden="true"
                         width="19" height="19"
                         fill="none" viewBox="0 0 19 19">
@@ -45,7 +45,7 @@
                 </li>
                 <li class="icon_heart">
                     <a href="#">
-                        <svg class="heart-green-circle" width="44"
+                        <svg class="heart-green-circle" width="12"
                         height="64" viewBox="0 0 44 64"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M21.9 41C21.6 41 21.3 40.9 21.1 40.6C15.7 34.5 14.4 33.1 14.1 32.7C13.4 31.8 13 30.6 13 29.4C13 26.4 15.4 24 18.5 24C19.8 24 21 24.5 22 25.3C23 24.5 24.3 24 25.5 24C28.5 24 31 26.4 31 29.4C31 30.7 30.5 31.9 29.7 32.8L22.7 40.7C22.5 40.9 22.3 41 21.9 41ZM15.9 31.5C16.2 31.9 19.4 35.5 22 38.4L28.2 31.4C28.7 30.9 28.9 30.2 28.9 29.4C28.9 27.6 27.4 26.1 25.6 26.1C24.6 26.1 23.6 26.6 22.9 27.4C22.6 27.7 22.3 27.8 22 27.8C21.7 27.8 21.4 27.6 21.2 27.4C20.5 26.6 19.5 26.1 18.5 26.1C16.7 26.1 15.2 27.6 15.2 29.4C15.1 30.3 15.5 31 15.9 31.5C15.8 31.5 15.8 31.5 15.9 31.5Z"
@@ -77,15 +77,15 @@
                <div class="catalog_title_menu">
                     <form class="catalog_list">
                         <ul class="catalog_sedona_hotels">
-                            <li>
+                            <li class="hotels_sedona">
                                 <h1>Гостиницы Седоны</h1></li>
                         </ul>
                         <ul class="breadcrumbs">
-                            <li class="breadcrumbs_link"><img src="images/catalog/house_mini_catalog.png"
+                          <a href="./index.html"> <li class="breadcrumbs_link"><img src="images/catalog/house_mini_catalog.png"
                                 alt="домик"
                                 width="12"
-                                height="12"></li>
-                            <li class="more_sign"><img src="images/catalog/more_sign.png"
+                                height="12"></li></a>
+                            <li class="more_sign"><img src="images/catalog/more_sign.svg"
                                 alt="знак больше"
                                 width="7"
                                 width="10"></li>
@@ -130,7 +130,7 @@
                                         <input
                                         class="hotel_and_apartments"
                                         type="radio"
-                                        name="hotels"
+                                        name="hotels_motel_apartments"
                                         id="hotel-field"
                                         checked/>
                                         <label class="title_label" for="hotel-field">Гостиница</label>
@@ -139,7 +139,7 @@
                                         <input
                                         class="hotel_and_apartments"
                                         type="radio"
-                                        name="motel"
+                                        name="hotels_motel_apartments"
                                         id="motel-field"
                                         />
                                         <label class="title_label" for="motel-field">Мотель</label>
@@ -148,7 +148,7 @@
                                         <input
                                         class="hotel_and_apartments"
                                         type="radio"
-                                        name="apartments"
+                                        name="hotels_motel_apartments"
                                         id="apartments-field"
                                         />
                                         <label class="title_label aprtaments" for="apartments-field">Апартаменты</label>
@@ -162,23 +162,9 @@
                                 <div class="container_input_price">
                                    <label>
 
-                                  <!-- <input class="input_price input_price_left"
-                                  placeholder="от"
-                                    value=""
-                                    type="number"
-                                    name="total"
-                                    id='total-field'>
-                                    </input>
-                                  </label>
 
-                                    <input class="input_price input_price_right"
-                                    placeholder="до"
-                                    type="number"
-                                    name="total"
-                                    id='total-field'>
-                                    </input> -->
 
-                                    <div class="price-inputs">
+                                       <div class="price-inputs">
                                       <div class="input-group">
                                           <input type="text" value="0" class="input-field" />
                                           <span class="label">ОТ</span>
@@ -210,7 +196,7 @@
                 </div>
             </section>
             <div class="hotels_found" data-test="catalog">
-                <h3>Найдено гостиниц: 38</h3>
+                <h2>Найдено гостиниц: 38</h2>
                 <div class="select">
                     <select class="select_pets" aria-label="Сортировка">
                         <option value="">Cначала дешевые</option>
@@ -257,7 +243,7 @@
                         </a>
                         <div class="amara_stars"></div>
                         <a class="rating_button">
-                            <button class="rating">Рейтинг:8,5</button>
+                            <span class="rating">Рейтинг:8,5</span>
                         </a>
                     </li>
                     <li class="hotel_cards_catalog">
@@ -278,7 +264,7 @@
                         </a>
                         <div class="vilas_stars amara_stars"></div>
                         <a class="rating_button">
-                            <button class="rating">Рейтинг:9,2</button>
+                            <span class="rating">Рейтинг:9,2</span>
                         </a>
                     </li>
                     <li class="hotel_cards_catalog">
@@ -299,7 +285,7 @@
                         </a>
                         <div class="desert_stars amara_stars"></div>
                         <a class="rating_button">
-                            <button class="rating">Рейтинг:6,9</button>
+                            <span class="rating">Рейтинг:6,9</span>
                         </a>
                     </li>
                     <li class="hotel_cards_catalog">
@@ -320,14 +306,13 @@
                         </a>
                         <div class="greentree_stars amara_stars"></div>
                         <a class="rating_button">
-                            <button class="rating">Рейтинг:5,0</button>
+                            <span class="rating">Рейтинг:5,0</span>
                         </a>
                     </li>
                 </ul>
             </section>
-            <div>
-                <img class="catalog_line" src="images/catalog/catalog_line.png"
-                alt="линия" width="1060px">
+            <div class="catalog_line">
+
             </div>
             <div class="pagination-container">
                 <ul class="pagination">
@@ -363,7 +348,7 @@
                 <div class="form_email_label">
                     <form class="form" action="" method="post">
                         <label for="email"></label>
-                        <input class="form_email" type="email" placeholder="Ваш e-mail"
+                        <input class="form_email form_catalog_email" type="email" placeholder="Ваш e-mail"
                         name="email" id="email"
                         required />
                         <button class="blue-button subscribe_button"
@@ -412,7 +397,7 @@
         </ul>
 
         <ul class="number_footer">
-            <li><a class="telephone-footer" href="#"> +7 (812) 812-12-12</a></li>
+            <li class="telephone_footer"><a class="telephone-footer" href="tel:+7(812)812-12-12"> +7 (812) 812-12-12</a></li>
         </ul>
         <ul class="images-html">
             <li>
