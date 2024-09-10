@@ -28,7 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   box-shadow: 0 -2px 19px rgba(166, 157, 157, 0.36);
 }
 
@@ -47,7 +47,7 @@ body {
 .page-container {
   width: 1200px;
   margin: 0 auto;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 0 -2px 19px rgba(255, 255, 255, 0.36);
 }
 
@@ -200,7 +200,7 @@ body {
   width: 1200px;
   display: flex;
   flex-direction: column;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .description-text {
@@ -674,7 +674,6 @@ body {
 .heart-green-circle {
   margin-top: 5px;
   margin-right: 20px;
-
 }
 
 .input_price_left::-webkit-outer-spin-button,
@@ -688,7 +687,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1px;
-  /* Разделение между двумя инпутами */
 }
 
 .input-group {
@@ -731,12 +729,10 @@ body {
 
 .input-group:first-child {
   border-radius: 8px 0 0 8px;
-  /* Скругление только слева */
 }
 
 .input-group:last-child {
   border-radius: 0 8px 8px 0;
-  /* Скругление только справа */
   width: 110px;
 }
 
@@ -883,7 +879,7 @@ body {
   font-family: "PT Sans", sans-serif;
   color: #000000;
   width: 1200px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .main-inner h1 {
@@ -912,7 +908,6 @@ body {
   width: 150px;
   height: 175px;
   padding: 0;
-
   margin: 0;
   border: 0 none;
 }
@@ -1496,7 +1491,7 @@ body {
   width: 1200px;
   margin: 0 auto;
   height: 120px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .footer_social {
