@@ -28,6 +28,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  background-color: #F2F2F2;
+  box-shadow: 0 -2px 19px rgba(166, 157, 157, 0.36);
 }
 
 .visually-hidden {
@@ -45,6 +47,8 @@ body {
 .page-container {
   width: 1200px;
   margin: 0 auto;
+  background-color: #FFFFFF;
+  box-shadow: 0 -2px 19px rgba(255, 255, 255, 0.36);
 }
 
 .page-header {
@@ -196,6 +200,7 @@ body {
   width: 1200px;
   display: flex;
   flex-direction: column;
+  background-color: #FFFFFF;
 }
 
 .description-text {
@@ -669,6 +674,7 @@ body {
 .heart-green-circle {
   margin-top: 5px;
   margin-right: 20px;
+
 }
 
 .input_price_left::-webkit-outer-spin-button,
@@ -877,6 +883,7 @@ body {
   font-family: "PT Sans", sans-serif;
   color: #000000;
   width: 1200px;
+  background-color: #FFFFFF;
 }
 
 .main-inner h1 {
@@ -1489,6 +1496,7 @@ body {
   width: 1200px;
   margin: 0 auto;
   height: 120px;
+  background-color: #FFFFFF;
 }
 
 .footer_social {
